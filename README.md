@@ -56,7 +56,7 @@ npm start
 ## Estrutura do Projeto
 
 ```
-├── app/                    # Telas e navegação (Expo Router)
+├── app/                   # Telas e navegação (Expo Router)
 │   ├── (tabs)/            # Telas principais com tabs
 │   │   ├── index.tsx      # Home - Lista de registros
 │   │   ├── two.tsx        # Resumo - Estatísticas e export

@@ -126,20 +126,97 @@ function Row({ label, value }: { label: string; value: string }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16, backgroundColor: '#fff' },
-  title: { fontSize: 24, fontWeight: 'bold', marginBottom: 24 },
-  sectionTitle: { fontSize: 13, fontWeight: 'bold', color: '#999', textTransform: 'uppercase', marginBottom: 8, marginTop: 16 },
-  card: { borderWidth: 1, borderColor: '#eee', borderRadius: 8, paddingHorizontal: 16 },
-  row: { flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: '#eee' },
-  rowLabel: { fontSize: 15, color: '#666' },
-  rowValue: { fontSize: 15, fontWeight: '500' },
-  statsRow: { flexDirection: 'row', gap: 12 },
-  statCard: { flex: 1, backgroundColor: '#f5f5f5', borderRadius: 8, padding: 16, alignItems: 'center' },
-  statLabel: { fontSize: 13, color: '#666', marginBottom: 4 },
-  statValue: { fontSize: 22, fontWeight: 'bold' },
-  notes: { fontSize: 15, color: '#444', lineHeight: 22, paddingVertical: 12 },
-  deleteButton: { marginTop: 24, padding: 16, borderRadius: 8, borderWidth: 1, borderColor: '#ff4444', alignItems: 'center' },
-  deleteText: { color: '#ff4444', fontSize: 15 },
+  container: {
+    flex: 1,
+    padding: 16,
+    backgroundColor: '#fff'
+  },
+  
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 24
+  },
+  
+  sectionTitle: {
+    fontSize: 13,
+    fontWeight: 'bold',
+    color: '#999',
+    textTransform: 'uppercase',
+    marginBottom: 8,
+    marginTop: 16
+  },
+  
+  card: {
+    borderWidth: 1,
+    borderColor: '#eee',
+    borderRadius: 8,
+    paddingHorizontal: 16
+  },
+  
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee'
+  },
+  
+  rowLabel: {
+    fontSize: 15,
+    color: '#666'
+  },
+  
+  rowValue: {
+    fontSize: 15,
+    fontWeight: '500'
+  },
+  
+  statsRow: {
+    flexDirection: 'row',
+    gap: 12
+  },
+  
+  statCard: {
+    flex: 1,
+    backgroundColor: '#f5f5f5',
+    borderRadius: 8,
+    padding: 16,
+    alignItems: 'center'
+  },
+  
+  statLabel: {
+    fontSize: 13,
+    color: '#666',
+    marginBottom: 4
+  },
+  
+  statValue: {
+    fontSize: 22,
+    fontWeight: 'bold'
+  },
+  
+  notes: {
+    fontSize: 15,
+    color: '#444',
+    lineHeight: 22,
+    paddingVertical: 12
+  },
+  
+  deleteButton: {
+    marginTop: 24,
+    padding: 16,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#ff4444',
+    alignItems: 'center'
+  },
+  
+  deleteText: {
+    color: '#ff4444',
+    fontSize: 15
+  },
+  
   editButton: {
     marginTop: 24,
     padding: 16,
@@ -148,6 +225,7 @@ const styles = StyleSheet.create({
     borderColor: '#1D9E75',
     alignItems: 'center',
   },
+  
   editText: {
     color: '#1D9E75',
     fontSize: 15,
